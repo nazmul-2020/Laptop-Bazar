@@ -4,8 +4,8 @@ import './Product.css'
 const Product = ({product}) => {
     // console.log(props);
     const {name, img, price} = product
-    const handelAddToCard = () => {
-        console.log('addd');
+    const handelAddToCard = (product) => {
+        console.log(product);
     }
 
     return (
@@ -14,7 +14,7 @@ const Product = ({product}) => {
             <div className='product-info'>
                 <h3>Name :{name}</h3>
                 <p>Price :{price}</p>
-                <button onClick={handelAddToCard} className='btn'><p>Add To Cart</p></button>
+                <button onClick={ () => handelAddToCard(product)} className='btn'><p>Add To Cart</p></button>
             </div>
 
         </div>
