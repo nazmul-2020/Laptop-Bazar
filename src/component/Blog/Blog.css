@@ -1,0 +1,31 @@
+.blog-container{
+    margin: 50px;
+    background-color: #282c3441;
+}
+
+.blog-container h1{
+    text-align: center;
+   padding-top: 10px;
+}
+
+.blog{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.blog-text{
+    border: 2px solid rebeccapurple;
+    border-radius: 5px;
+    margin: 20px;
+    background-color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: justify;
+
+}
+
+.blog-text h3{
+    text-align: center;
+}
