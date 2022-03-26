@@ -5,11 +5,11 @@ import './Bazar.css'
 const Bazar = () => {
 
     const [products, setProducts] = useState([])
-    const [cart, setCart] = useState([])
+    // const [cart, setCart] = useState([])
 
-    const handelAddToCard = (product) => {
-        console.log(product);
-    }
+    // const handelAddToCard = (product) => {
+    //     console.log(product);
+    // }
 
     useEffect(() =>{
         fetch('products.json')
