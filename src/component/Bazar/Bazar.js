@@ -7,10 +7,14 @@ const Bazar = () => {
     const [products, setProducts] = useState([])
     const [cart, setCart] = useState([])
     console.log(cart);
-
+    // 
     const handelAddToCard = (product) => {
         const newCart =[...cart, product]
         setCart(newCart);
+    }
+
+    const handelClose =() =>{
+        setCart([])
     }
 
     useEffect(() =>{
@@ -39,7 +43,7 @@ const Bazar = () => {
                     }
                     <div className='all-btn'>
                     <button >Choose 1 For Me</button>
-                    <button>Choose Again</button>
+                    <button onClick={() =>handelClose(setCart)}>Reset Cart</button>
                     </div>
                 </div>
             </div>
