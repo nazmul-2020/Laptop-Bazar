@@ -6,13 +6,14 @@ const Bazar = () => {
 
     const [products, setProducts] = useState([])
     const [cart, setCart] = useState([])
-    console.log(cart);
-    // 
+
+    // Add cart function
     const handelAddToCard = (product) => {
         const newCart =[...cart, product]
         setCart(newCart);
     }
 
+    // Reset  cart function
     const handelClose =() =>{
         setCart([])
     }
@@ -22,6 +23,7 @@ const Bazar = () => {
         .then(res => res.json())
         .then(data => setProducts(data))
     },[])
+
     return (
         <div className='bazar-container'>
             <div className='products-container'>
@@ -42,8 +44,8 @@ const Bazar = () => {
                             </h4>))
                     }
                     <div className='all-btn'>
-                    <button >Choose 1 For Me</button>
-                    <button onClick={() =>handelClose(setCart)}>Reset Cart</button>
+                        <button >Choose 1 For Me</button>
+                        <button onClick={() =>handelClose(setCart)}>Reset Cart</button>
                     </div>
                 </div>
             </div>
