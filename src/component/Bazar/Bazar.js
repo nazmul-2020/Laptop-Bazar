@@ -5,11 +5,13 @@ import './Bazar.css'
 const Bazar = () => {
 
     const [products, setProducts] = useState([])
-    // const [cart, setCart] = useState([])
+    const [cart, setCart] = useState([])
+    console.log(cart);
 
-    // const handelAddToCard = (product) => {
-    //     console.log(product);
-    // }
+    const handelAddToCard = (product) => {
+        const newCart =[product]
+        setCart(newCart);
+    }
 
     useEffect(() =>{
         fetch('products.json')
@@ -23,15 +25,19 @@ const Bazar = () => {
                     products.map(product => <Product
                         key ={product.id}
                         product = {product}
+                        handelAddToCard = {handelAddToCard}
                         ></Product>)
                 }
             </div>
 
                 <div className='cart-container'>
-                <h4>Order Summary</h4>
+                    <h4>Selected Item</h4>
+                    {
+                        cart.map((item) => ( <h1>{item.name}</h1>))
+                    }
+                    <h4><p>Selected Items: {cart.length}  </p></h4>
                 </div>
-
-        </div>
+            </div>
 
     );
 };
