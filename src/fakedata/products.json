@@ -9,9 +9,9 @@
 
   {
       "id": "2",
-      "name": "Lenovo ThinkPad E15",
+      "name": "Lenovo ThinkPad T470s",
       "price": 50000,
-      "img": "https://media.ldlc.com/r1600/ld/products/00/05/89/94/LD0005899439_1.jpg"
+      "img": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/ideapad-slim-3i/ideapad-slim-3i-8-228x228.jpg"
       
     },
 
@@ -19,55 +19,55 @@
       "id": "3",
       "name": "Lenovo ThinkPad E15",
       "price": 50000,
-      "img": "https://media.ldlc.com/r1600/ld/products/00/05/89/94/LD0005899439_1.jpg"
+      "img": "https://www.phonestablets.co.ke/wp-content/uploads/2021/06/Lenovo-ThinkPad-X390-1-1.jpg"
       
     },
 
   {
       "id": "4",
-      "name": "Lenovo ThinkPad E15",
+      "name": "HP Elitebook E1570p ",
       "price": 50000,
-      "img": "https://media.ldlc.com/r1600/ld/products/00/05/89/94/LD0005899439_1.jpg"
+      "img": "https://www.hp.com/ca-en/shop/Html/Merch/Images/c06649739_500x367.jpg"
       
     },
 
   {
       "id": "5",
-      "name": "Lenovo ThinkPad E15",
+      "name": "HP Elitebook 8470p",
       "price": 50000,
-      "img": "https://media.ldlc.com/r1600/ld/products/00/05/89/94/LD0005899439_1.jpg"
+      "img": "https://www.compuvilla.com/image/cache/catalog/HP%20Laptops/HP%20Elitebook%208470p_3/s-l1600%20(1)-550x550w.jpg"
       
     },
 
   {
       "id": "6",
-      "name": "Lenovo ThinkPad E15",
+      "name": "HP EliteBook 840",
       "price": 50000,
-      "img": "https://media.ldlc.com/r1600/ld/products/00/05/89/94/LD0005899439_1.jpg"
+      "img": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/elitebook-840-g8/elitebook-840-g8-05-500x500.jpg"
       
     },
 
   {
       "id": "7",
-      "name": "Lenovo ThinkPad E15",
+      "name": "Dell Inspiron 15-3501",
       "price": 50000,
-      "img": "https://media.ldlc.com/r1600/ld/products/00/05/89/94/LD0005899439_1.jpg"
+      "img": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/3501/3501-002-500x500.jpg"
       
     },
 
   {
       "id": "8",
-      "name": "Lenovo ThinkPad E15",
+      "name": "Dell Inspiron 13-7306",
       "price": 50000,
-      "img": "https://media.ldlc.com/r1600/ld/products/00/05/89/94/LD0005899439_1.jpg"
+      "img": "https://www.pqs.com.bd/image/cache/catalog/products/laptop/dell/Inspiron%2013-7306%202-in-1-500x500.jpg"
       
     },
 
   {
       "id": "9",
-      "name": "Lenovo ThinkPad E15",
+      "name": "Dell Inspiron 15 3511",
       "price": 50000,
-      "img": "https://media.ldlc.com/r1600/ld/products/00/05/89/94/LD0005899439_1.jpg"
+      "img": "https://www.techlandbd.com/image/cache/catalog/Laptop/Dell/Inspiron/15-3511/blue/dell-inspiron-15-3511-core-i3-laptop-blue-1-550x550.jpg"
       
     }
 ]

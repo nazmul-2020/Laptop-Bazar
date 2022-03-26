@@ -33,8 +33,8 @@ const Bazar = () => {
                 <div className='cart-container'>
                     <h3>Selected Item</h3>
                     {
-                        cart.map((item) => ( <h4 
-                            key={item.id}>{item.name}
+                        cart.map((item) => ( <h4 key={item.id}>
+                            {item.name}
                             </h4>))
                     }
                 </div>
