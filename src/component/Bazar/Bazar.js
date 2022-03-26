@@ -9,7 +9,7 @@ const Bazar = () => {
     console.log(cart);
 
     const handelAddToCard = (product) => {
-        const newCart =[product]
+        const newCart =[...cart, product]
         setCart(newCart);
     }
 
@@ -31,11 +31,12 @@ const Bazar = () => {
             </div>
 
                 <div className='cart-container'>
-                    <h4>Selected Item</h4>
+                    <h3>Selected Item</h3>
                     {
-                        cart.map((item) => ( <h1>{item.name}</h1>))
+                        cart.map((item) => ( <h4 
+                            key={item.id}>{item.name}
+                            </h4>))
                     }
-                    <h4><p>Selected Items: {cart.length}  </p></h4>
                 </div>
             </div>
 
