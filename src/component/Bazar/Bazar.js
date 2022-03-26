@@ -37,6 +37,10 @@ const Bazar = () => {
                             {item.name}
                             </h4>))
                     }
+                    <div className='all-btn'>
+                    <button >Choose 1 For Me</button>
+                    <button>Choose Again</button>
+                    </div>
                 </div>
             </div>
 

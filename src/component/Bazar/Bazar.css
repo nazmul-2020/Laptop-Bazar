@@ -16,9 +16,27 @@
 
 .cart-container{
   background-color: #282c3441;
-  padding-left: 20px;
+  padding: 10px;
   border-radius: 10px;
   height: 500px;
   position: sticky;
   top: 0;
+}
+
+.all-btn{
+  display:  flex;
+  justify-content: space-between;
+}
+
+.all-btn button{
+  padding: 10px;
+  border: 3px solid #66339993;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+@media screen and (max-width:500px) {
+    .products-container, .bazar-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
